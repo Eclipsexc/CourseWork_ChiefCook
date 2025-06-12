@@ -1,0 +1,63 @@
+.root {
+    -fx-background-image: url("/assets/background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-alignment: center;
+}
+
+.menu-panel {
+    -fx-background-color: transparent;
+    -fx-padding: 30;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+    -fx-background-radius: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-radius: 0;
+    -fx-effect: null;
+}
+
+.title-label {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #66bb6a;
+    -fx-effect: dropshadow(gaussian, #000000, 2, 0.3, 0, 1);
+    -fx-padding: 0 0 10 0;
+}
+
+.menu-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #e8f5e9;
+    -fx-border-color: #81c784;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-text-fill: #1c1c1c;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 1, 0.3, 0, 1);
+    -fx-padding: 6px 20px;
+    -fx-min-width: 260;
+}
+
+.menu-button:hover {
+    -fx-background-color: #c8e6c9;
+    -fx-border-color: #66bb6a;
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.hbox {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.arrow-label {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: transparent;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.hbox:hover .arrow-label {
+    -fx-text-fill: #ffffff;
+}

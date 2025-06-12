@@ -1,0 +1,734 @@
+2024-11-24 16:02:35 [main] INFO  Application.Main - Початок програми
+2024-11-24 16:02:44 [main] INFO  C.DisplayAvailableVegetablesCommand - Список доступних овочів виведено в консоль.
+2024-11-24 16:02:57 [main] INFO  C.DisplayAvailableVegetablesCommand - Список доступних овочів виведено в консоль.
+2024-11-24 16:03:05 [main] INFO  C.DisplayAvailableVegetablesCommand - Список доступних овочів виведено в консоль.
+2024-11-24 16:03:11 [main] INFO  C.DisplayAvailableVegetablesCommand - Список доступних овочів виведено в консоль.
+2024-11-24 16:03:18 [main] INFO  Commands.MakeSaladCommand - Створено салат з наступними інградієнтами: Брюсельська капуста - 34.0 грам; .
+2024-11-24 16:03:37 [main] ERROR C.AnalyzeNutritionalContentCommand - Критична помилка у програмі
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at Commands.AnalyzeNutritionalContentCommand.execute(AnalyzeNutritionalContentCommand.java:37)
+	at Display.ConsoleMenu.executeCommand(ConsoleMenu.java:40)
+	at Display.ConsoleMenu.run(ConsoleMenu.java:76)
+	at Application.Main.main(Main.java:39)
+2024-11-24 16:03:51 [main] INFO  Application.Main - Кінець програми
+2024-11-24 16:20:11 [main] INFO  Application.Main - Початок програми
+2024-11-24 16:20:23 [main] INFO  Application.Main - Кінець програми
+2024-11-24 16:40:01 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:19)
+2024-11-24 16:40:01 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:07:34 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:07:44 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:09:11 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:09:11 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:09:19 [main] INFO  Application.Main - Кінець програми
+2024-11-24 17:27:23 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:27:23 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:27:26 [main] INFO  Application.Main - Кінець програми
+2024-11-24 17:27:46 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:27:46 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:27:53 [main] INFO  Application.Main - Кінець програми
+2024-11-24 17:33:06 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:33:52 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:48:57 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:48:57 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:48:58 [main] INFO  Application.Main - Кінець програми
+2024-11-24 17:54:04 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:54:22 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:56:03 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:56:03 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:56:09 [main] INFO  Application.Main - Кінець програми
+2024-11-24 17:57:36 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:57:36 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:57:39 [main] INFO  Application.Main - Кінець програми
+2024-11-24 17:58:03 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 17:58:03 [main] INFO  Application.Main - Початок програми
+2024-11-24 17:58:08 [main] INFO  Application.Main - Кінець програми
+2024-11-24 18:00:55 [main] ERROR Application.Main - Критична помилка у програмі
+java.lang.Exception: tst
+	at Application.Main.main(Main.java:18)
+2024-11-24 18:00:55 [main] INFO  Application.Main - Початок програми
+2024-11-24 18:01:45 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-24 18:01:45 [main] INFO  Application.Main - Початок програми
+2024-11-24 18:08:11 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-24 18:08:11 [main] INFO  Application.Main - Початок програми
+2024-11-24 18:08:18 [main] INFO  Application.Main - Кінець програми
+2024-11-24 18:10:53 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-24 18:10:54 [main] INFO  Application.Main - Початок програми
+2024-11-24 18:11:00 [main] INFO  Application.Main - Кінець програми
+2024-11-24 18:12:31 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-24 18:12:31 [main] INFO  Application.Main - Початок програми
+2024-11-24 18:12:35 [main] INFO  Application.Main - Кінець програми
+2024-11-27 03:09:08 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 03:09:08 [main] INFO  Application.Main - Початок програми
+2024-11-27 03:20:10 [main] INFO  Commands.SortVegetablesCommand - Салат відсортовано по калорійності і виведено в консоль.
+2024-11-27 03:20:34 [main] INFO  Commands.SortVegetablesCommand - Салат відсортовано по калорійності і виведено в консоль.
+2024-11-27 03:22:34 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 03:22:34 [main] INFO  Application.Main - Початок програми
+2024-11-27 03:22:49 [main] INFO  Commands.SortVegetablesCommand - Салат відсортовано по калорійності і виведено в консоль.
+2024-11-27 09:16:37 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 09:16:37 [main] INFO  Application.Main - Початок програми
+2024-11-27 09:16:47 [main] INFO  Application.Main - Кінець програми
+2024-11-27 09:16:59 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 09:16:59 [main] INFO  Application.Main - Початок програми
+2024-11-27 09:17:07 [main] INFO  Application.Main - Кінець програми
+2024-11-27 09:17:30 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 09:17:30 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:50:13 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2024-11-27 11:50:13 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:50:18 [main] INFO  Application.Main - Кінець програми
+2024-11-27 11:50:42 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:50:42 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:50:49 [main] INFO  Application.Main - Кінець програми
+2024-11-27 11:51:56 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:51:56 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:52:03 [main] INFO  Application.Main - Кінець програми
+2024-11-27 11:52:22 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:52:22 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:52:28 [main] INFO  Application.Main - Кінець програми
+2024-11-27 11:52:48 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:52:48 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:52:52 [main] INFO  Application.Main - Кінець програми
+2024-11-27 11:53:15 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:53:15 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:53:21 [main] INFO  Application.Main - Кінець програми
+2024-11-27 11:56:25 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:56:25 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:56:45 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:56:45 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:56:48 [main] INFO  Application.Main - Кінець програми
+2024-11-27 11:57:48 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:20)
+2024-11-27 11:57:48 [main] INFO  Application.Main - Початок програми
+2024-11-27 11:57:52 [main] INFO  Application.Main - Кінець програми
+2024-11-27 12:13:21 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2024-11-27 12:13:21 [main] INFO  Application.Main - Початок програми
+2024-11-27 12:13:29 [main] INFO  Application.Main - Кінець програми
+2024-12-06 00:02:10 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2024-12-06 00:02:10 [main] INFO  Application.Main - Початок програми
+2024-12-06 00:02:16 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2024-12-06 00:02:16 [main] INFO  Application.Main - Початок програми
+2024-12-06 00:27:54 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2024-12-06 00:27:54 [main] INFO  Application.Main - Початок програми
+2024-12-06 00:28:02 [main] INFO  Application.Main - Кінець програми
+2024-12-06 00:28:24 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2024-12-06 00:28:24 [main] INFO  Application.Main - Початок програми
+2024-12-06 00:28:30 [main] INFO  Application.Main - Кінець програми
+2024-12-06 00:28:36 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2024-12-06 00:28:36 [main] INFO  Application.Main - Початок програми
+2025-04-11 18:11:29 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2025-04-11 18:11:29 [main] INFO  Application.Main - Початок програми
+2025-04-22 19:43:35 [main] ERROR Application.Main - Test email
+java.lang.RuntimeException: SMTP Test Exception
+	at Application.Main.main(Main.java:21)
+2025-04-22 19:43:35 [main] INFO  Application.Main - Початок програми
+2025-06-11 21:41:35 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-11 21:41:35 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-11 21:41:35 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-11 21:41:35 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-11 21:41:35 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-11 21:41:35 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-11 21:41:35 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 21:41:35 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-11 21:41:35 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 21:41:35 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-11 21:41:35 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-11 21:41:36 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 21:41:51 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-11 21:41:52 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-11 21:41:52 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-11 21:41:52 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-11 21:41:52 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-11 21:41:52 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-11 21:41:52 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 21:41:52 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-11 21:41:52 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 21:41:52 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-11 21:41:52 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-11 21:41:52 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 21:41:55 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-11 21:41:55 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-11 21:41:56 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-11 21:41:57 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-11 21:41:57 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 21:41:58 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-11 21:41:58 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 21:41:58 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-11 21:42:00 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Острів здоров’я
+2025-06-11 21:42:00 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Острів здоров’я
+2025-06-11 21:42:00 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Острів здоров’я' містить 4 інгредієнтів
+2025-06-11 21:42:00 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 46.8 (Цибуля), Мін. ккал: 6.6 (Пекінська капуста)
+2025-06-11 23:09:40 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-11 23:09:41 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-11 23:09:41 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-11 23:09:41 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-11 23:09:41 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-11 23:09:41 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-11 23:09:41 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:09:41 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-11 23:09:41 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:09:41 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-11 23:09:41 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-11 23:09:41 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:09:43 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-11 23:09:43 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-11 23:09:44 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-11 23:09:45 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-11 23:09:45 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:09:46 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-11 23:09:46 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:09:46 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-11 23:09:47 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Сонячна тарілка
+2025-06-11 23:09:47 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Сонячна тарілка
+2025-06-11 23:09:47 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Сонячна тарілка' містить 5 інгредієнтів
+2025-06-11 23:09:47 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 64.0 (Перець Чілі), Мін. ккал: 13.08 (Пекінська капуста)
+2025-06-11 23:09:48 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Закрито діалог салату: Сонячна тарілка
+2025-06-11 23:09:49 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-11 23:09:49 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:09:50 [main] INFO  Application.Main - Кінець роботи програми.
+2025-06-11 23:43:29 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-11 23:43:30 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-11 23:43:30 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-11 23:43:30 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-11 23:43:30 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-11 23:43:30 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-11 23:43:30 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:43:30 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-11 23:43:30 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:43:30 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-11 23:43:30 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-11 23:43:31 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:43:41 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-11 23:43:41 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-11 23:43:41 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-11 23:48:02 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-11 23:48:02 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:48:03 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-11 23:48:03 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:48:03 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-11 23:48:04 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Овочевий хруст
+2025-06-11 23:48:04 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Овочевий хруст
+2025-06-11 23:48:04 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Овочевий хруст' містить 5 інгредієнтів
+2025-06-11 23:48:04 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 86.8 (Перець Чілі), Мін. ккал: 20.02 (Редиска)
+2025-06-11 23:48:05 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Овочевий хруст
+2025-06-11 23:48:05 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2059, рядків: 1
+2025-06-11 23:48:05 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 19 салатів з бази
+2025-06-11 23:48:05 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:06 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Сонячна тарілка
+2025-06-11 23:48:06 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Сонячна тарілка
+2025-06-11 23:48:06 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Сонячна тарілка' містить 5 інгредієнтів
+2025-06-11 23:48:06 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 64.0 (Перець Чілі), Мін. ккал: 13.08 (Пекінська капуста)
+2025-06-11 23:48:06 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Сонячна тарілка
+2025-06-11 23:48:07 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2060, рядків: 1
+2025-06-11 23:48:07 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 18 салатів з бази
+2025-06-11 23:48:07 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:07 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Гострий мікс
+2025-06-11 23:48:07 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Гострий мікс
+2025-06-11 23:48:07 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Гострий мікс' містить 5 інгредієнтів
+2025-06-11 23:48:07 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 249.6 (Авокадо), Мін. ккал: 17.52 (Цибуля)
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Гострий мікс
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2061, рядків: 1
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 17 салатів з бази
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Фітнес-бомба
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Фітнес-бомба
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Фітнес-бомба' містить 3 інгредієнтів
+2025-06-11 23:48:08 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 25.2 (Цибуля), Мін. ккал: 7.14 (Редиска)
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Фітнес-бомба
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2062, рядків: 1
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 16 салатів з бази
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Свіжість лісу
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Свіжість лісу
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Свіжість лісу' містить 4 інгредієнтів
+2025-06-11 23:48:09 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 21.73 (Морква), Мін. ккал: 11.1 (Буряк)
+2025-06-11 23:48:10 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Свіжість лісу
+2025-06-11 23:48:10 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2063, рядків: 1
+2025-06-11 23:48:10 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 15 салатів з бази
+2025-06-11 23:48:10 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Кремовий день
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Кремовий день
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Кремовий день' містить 3 інгредієнтів
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 79.13 (Морква), Мін. ккал: 22.08 (Цибуля)
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Кремовий день
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2064, рядків: 1
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 14 салатів з бази
+2025-06-11 23:48:11 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Літній настрій
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Літній настрій
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Літній настрій' містить 2 інгредієнтів
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 9.57 (Перець Халапеньйо), Мін. ккал: 6.24 (Пекінська капуста)
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Літній настрій
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2065, рядків: 1
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 13 салатів з бази
+2025-06-11 23:48:12 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:13 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Бадьорість ранку
+2025-06-11 23:48:13 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Бадьорість ранку
+2025-06-11 23:48:13 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Бадьорість ранку' містить 5 інгредієнтів
+2025-06-11 23:48:13 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 79.18 (Буряк), Мін. ккал: 17.11 (Перець Халапеньйо)
+2025-06-11 23:48:13 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Бадьорість ранку
+2025-06-11 23:48:14 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2066, рядків: 1
+2025-06-11 23:48:14 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 12 салатів з бази
+2025-06-11 23:48:14 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:14 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Гармонія смаку
+2025-06-11 23:48:14 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Гармонія смаку
+2025-06-11 23:48:14 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Гармонія смаку' містить 2 інгредієнтів
+2025-06-11 23:48:14 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 168.0 (Авокадо), Мін. ккал: 19.8 (Пекінська капуста)
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Гармонія смаку
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2067, рядків: 1
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 11 салатів з бази
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Блискавка
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Блискавка
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Блискавка' містить 5 інгредієнтів
+2025-06-11 23:48:15 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 97.97 (Кукурудза), Мін. ккал: 13.34 (Перець Халапеньйо)
+2025-06-11 23:48:16 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Блискавка
+2025-06-11 23:48:16 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2068, рядків: 1
+2025-06-11 23:48:16 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 10 салатів з бази
+2025-06-11 23:48:16 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Зелений шторм
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Зелений шторм
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Зелений шторм' містить 5 інгредієнтів
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 32.4 (Цибуля), Мін. ккал: 9.6 (Пекінська капуста)
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Зелений шторм
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2069, рядків: 1
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 9 салатів з бази
+2025-06-11 23:48:17 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Смак свободи
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Смак свободи
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Смак свободи' містить 3 інгредієнтів
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 356.8 (Авокадо), Мін. ккал: 11.55 (Огірок)
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Смак свободи
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2070, рядків: 1
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 8 салатів з бази
+2025-06-11 23:48:18 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:19 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Червоний спалах
+2025-06-11 23:48:19 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Червоний спалах
+2025-06-11 23:48:19 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Червоний спалах' містить 4 інгредієнтів
+2025-06-11 23:48:19 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 195.2 (Авокадо), Мін. ккал: 14.55 (Огірок)
+2025-06-11 23:48:19 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Червоний спалах
+2025-06-11 23:48:19 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2071, рядків: 1
+2025-06-11 23:48:20 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 7 салатів з бази
+2025-06-11 23:48:20 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:20 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Острів здоров’я
+2025-06-11 23:48:20 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Острів здоров’я
+2025-06-11 23:48:20 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Острів здоров’я' містить 2 інгредієнтів
+2025-06-11 23:48:20 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 39.9 (Цвітна капуста), Мін. ккал: 5.25 (Огірок)
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Острів здоров’я
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2072, рядків: 1
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 6 салатів з бази
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Салат-настрій
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Салат-настрій
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Салат-настрій' містить 5 інгредієнтів
+2025-06-11 23:48:21 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 160.05 (Кукурудза), Мін. ккал: 13.32 (Буряк)
+2025-06-11 23:48:22 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Салат-настрій
+2025-06-11 23:48:22 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2073, рядків: 1
+2025-06-11 23:48:22 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 5 салатів з бази
+2025-06-11 23:48:22 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:23 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Салат «Огірок і друзі»
+2025-06-11 23:48:23 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Салат «Огірок і друзі»
+2025-06-11 23:48:23 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Салат «Огірок і друзі»' містить 2 інгредієнтів
+2025-06-11 23:48:23 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 68.08 (Буряк), Мін. ккал: 21.45 (Огірок)
+2025-06-11 23:48:24 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Салат «Огірок і друзі»
+2025-06-11 23:48:24 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2074, рядків: 1
+2025-06-11 23:48:24 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 4 салатів з бази
+2025-06-11 23:48:24 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:25 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Салат «Пекінський привіт»
+2025-06-11 23:48:25 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Салат «Пекінський привіт»
+2025-06-11 23:48:25 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Салат «Пекінський привіт»' містить 2 інгредієнтів
+2025-06-11 23:48:25 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 27.16 (Редиска), Мін. ккал: 15.2 (Перець Чілі)
+2025-06-11 23:48:25 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Салат «Пекінський привіт»
+2025-06-11 23:48:26 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2075, рядків: 1
+2025-06-11 23:48:26 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 3 салатів з бази
+2025-06-11 23:48:26 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:26 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Формула вітамінів
+2025-06-11 23:48:26 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Формула вітамінів
+2025-06-11 23:48:26 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Формула вітамінів' містить 3 інгредієнтів
+2025-06-11 23:48:26 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 70.8 (Перець Чілі), Мін. ккал: 5.4 (Пекінська капуста)
+2025-06-11 23:48:27 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Формула вітамінів
+2025-06-11 23:48:27 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2076, рядків: 1
+2025-06-11 23:48:27 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 2 салатів з бази
+2025-06-11 23:48:27 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Гострий герой
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Гострий герой
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Гострий герой' містить 5 інгредієнтів
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 38.95 (Морква), Мін. ккал: 4.2 (Редиска)
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Гострий герой
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2077, рядків: 1
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 1 салатів з бази
+2025-06-11 23:48:28 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:29 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Вибух кольорів
+2025-06-11 23:48:29 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Вибух кольорів
+2025-06-11 23:48:29 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Вибух кольорів' містить 4 інгредієнтів
+2025-06-11 23:48:29 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 267.2 (Авокадо), Мін. ккал: 7.7 (Редиска)
+2025-06-11 23:48:30 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Вибух кольорів
+2025-06-11 23:48:30 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2078, рядків: 1
+2025-06-11 23:48:30 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-11 23:48:30 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-11 23:48:31 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-11 23:48:31 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:48:32 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-11 23:48:32 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-11 23:48:32 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 0 салатів з бази
+2025-06-11 23:48:35 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Салати відсортовано за енергетичною цінністю (ASC)
+2025-06-11 23:48:36 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-11 23:48:36 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:48:40 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-11 23:48:40 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-11 23:48:40 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-11 23:48:48 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-11 23:48:48 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:48:49 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-11 23:48:49 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-11 23:48:49 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 0 салатів з бази
+2025-06-11 23:49:16 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-11 23:49:16 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:49:17 [JavaFX Application Thread] INFO  main - Програму завершено користувачем.
+2025-06-11 23:49:23 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-11 23:49:24 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-11 23:49:24 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-11 23:49:24 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-11 23:49:24 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-11 23:49:24 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-11 23:49:24 [main] INFO  Init.SaladSeeder - Сідінг таблиці салатів (20) випадковими даними...
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Овочевий хруст' з ID 2079
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Сонячна тарілка' з ID 2080
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий мікс' з ID 2081
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Фітнес-бомба' з ID 2082
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Свіжість лісу' з ID 2083
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Кремовий день' з ID 2084
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Літній настрій' з ID 2085
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Бадьорість ранку' з ID 2086
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гармонія смаку' з ID 2087
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Блискавка' з ID 2088
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Зелений шторм' з ID 2089
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Смак свободи' з ID 2090
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Червоний спалах' з ID 2091
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Острів здоров’я' з ID 2092
+2025-06-11 23:49:24 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат-настрій' з ID 2093
+2025-06-11 23:49:25 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Огірок і друзі»' з ID 2094
+2025-06-11 23:49:25 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Пекінський привіт»' з ID 2095
+2025-06-11 23:49:25 [main] INFO  DB.SaladDAO - Успішно додано салат 'Формула вітамінів' з ID 2096
+2025-06-11 23:49:25 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий герой' з ID 2097
+2025-06-11 23:49:25 [main] INFO  DB.SaladDAO - Успішно додано салат 'Вибух кольорів' з ID 2098
+2025-06-11 23:49:25 [main] INFO  Init.SaladSeeder - Успішно згенеровано 20 салатів.
+2025-06-11 23:49:25 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:49:25 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-11 23:49:25 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-11 23:49:25 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-11 23:49:27 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-11 23:49:27 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-11 23:49:27 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-12 00:06:35 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 00:06:35 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 00:15:36 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 00:15:36 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-12 00:15:36 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 00:20:04 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 00:20:04 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 00:20:05 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 00:27:53 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 00:27:53 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 00:27:54 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 00:27:54 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 00:27:54 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-12 00:29:32 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Овочевий хруст
+2025-06-12 00:29:32 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Овочевий хруст
+2025-06-12 00:29:32 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Овочевий хруст' містить 2 інгредієнтів
+2025-06-12 00:29:32 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 76.63 (Кукурудза), Мін. ккал: 21.17 (Перець Халапеньйо)
+2025-06-12 00:44:55 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 00:44:55 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 00:44:56 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 00:44:56 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-12 00:44:56 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 00:44:58 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 00:44:58 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 01:02:49 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Закрито діалог салату: Острів здоров’я
+2025-06-12 01:02:50 [JavaFX Application Thread] INFO  main - Програму завершено користувачем.
+2025-06-12 01:02:52 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 01:02:52 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 01:02:53 [JavaFX Application Thread] INFO  main - Програму завершено користувачем.
+2025-06-12 01:17:52 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 01:17:53 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 01:17:53 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 01:17:53 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 01:17:53 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 01:17:53 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 01:17:53 [main] INFO  Init.SaladSeeder - Сідінг таблиці салатів (20) випадковими даними...
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Овочевий хруст' з ID 2162
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Сонячна тарілка' з ID 2163
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий мікс' з ID 2164
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Фітнес-бомба' з ID 2165
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Свіжість лісу' з ID 2166
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Кремовий день' з ID 2167
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Літній настрій' з ID 2168
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Бадьорість ранку' з ID 2169
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гармонія смаку' з ID 2170
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Блискавка' з ID 2171
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Зелений шторм' з ID 2172
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Смак свободи' з ID 2173
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Червоний спалах' з ID 2174
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Острів здоров’я' з ID 2175
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат-настрій' з ID 2176
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Огірок і друзі»' з ID 2177
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Пекінський привіт»' з ID 2178
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Формула вітамінів' з ID 2179
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий герой' з ID 2180
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Успішно додано салат 'Вибух кольорів' з ID 2181
+2025-06-12 01:17:53 [main] INFO  Init.SaladSeeder - Успішно згенеровано 20 салатів.
+2025-06-12 01:17:53 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 01:17:53 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-12 01:17:53 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 01:17:54 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 01:18:50 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 01:18:50 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-12 01:18:51 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 01:19:26 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 01:19:26 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 01:19:27 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 01:19:38 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Авокадо (123.0 г)
+2025-06-12 01:19:41 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Буряк (33.0 г)
+2025-06-12 01:19:45 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Морква (42.0 г)
+2025-06-12 01:19:49 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Цвітна капуста (52.0 г)
+2025-06-12 01:20:19 [JavaFX Application Thread] INFO  DB.SaladDAO - Успішно додано салат 'Тестовий' з ID 2182
+2025-06-12 01:20:19 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Створено новий салат: Тестовий
+2025-06-12 01:20:26 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 01:20:26 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 01:20:27 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 01:20:27 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 01:20:27 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 21 салатів з бази
+2025-06-12 01:20:43 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 01:20:43 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 01:20:52 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 01:20:52 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 01:20:52 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 21 салатів з бази
+2025-06-12 01:20:54 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Свіжість лісу
+2025-06-12 01:20:54 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Свіжість лісу
+2025-06-12 01:20:54 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Свіжість лісу' містить 5 інгредієнтів
+2025-06-12 01:20:54 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 161.6 (Авокадо), Мін. ккал: 4.9 (Редиска)
+2025-06-12 01:22:06 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 01:22:07 [main] ERROR Init.AppInitializer - Помилка під час ініціалізації додатку
+com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'CourseWork_User'. ClientConnectionId:2842e525-09ab-4416-b908-e5874d19ccf7
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:300)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:133)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:37)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:6299)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:4911)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:4849)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7620)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3916)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3358)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2950)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2790)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1663)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1064)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at DB.DatabaseManager.getConnection(DatabaseManager.java:14)
+	at Init.AppInitializer.initializeApp(AppInitializer.java:25)
+	at Application.Main.main(Main.java:15)
+2025-06-12 01:22:07 [main] ERROR Application.Main - Помилка при ініціалізації додатку. Завершення.
+2025-06-12 01:30:01 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 01:30:02 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 01:30:02 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 01:30:02 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 01:30:02 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 01:30:02 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 01:30:02 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 01:30:02 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 01:30:02 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 01:30:02 [main] INFO  Init.AppInitializer - Завантажено 21 салатів
+2025-06-12 01:30:02 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 01:30:03 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 01:30:04 [main] INFO  Application.Main - Кінець роботи програми.
+2025-06-12 01:30:26 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 01:30:27 [main] ERROR Init.AppInitializer - Помилка під час ініціалізації додатку
+com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'CourseWork_User'. ClientConnectionId:d75cefc8-d537-483e-a4ab-6f0c9b4cbfd1
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:300)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:133)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:37)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:6299)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:4911)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:4849)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7620)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3916)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3358)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2950)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2790)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1663)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1064)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at DB.DatabaseManager.getConnection(DatabaseManager.java:14)
+	at Init.AppInitializer.initializeApp(AppInitializer.java:25)
+	at Application.Main.main(Main.java:15)
+2025-06-12 01:30:27 [main] ERROR Application.Main - Помилка при ініціалізації додатку. Завершення.
+2025-06-12 01:32:46 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 01:32:47 [main] ERROR Init.AppInitializer - Помилка під час ініціалізації додатку
+com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'CourseWork_User'. ClientConnectionId:b355f7e5-bea7-4eba-8133-a4214c34ce67
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:300)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:133)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:37)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:6299)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:4911)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:4849)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7620)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3916)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3358)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2950)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2790)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1663)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1064)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at DB.DatabaseManager.getConnection(DatabaseManager.java:14)
+	at Init.AppInitializer.initializeApp(AppInitializer.java:25)
+	at Application.Main.main(Main.java:15)
+2025-06-12 01:32:47 [main] ERROR Application.Main - Помилка при ініціалізації додатку. Завершення.
+2025-06-12 01:36:16 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:37:19 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:39:04 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:41:34 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:45:11 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:47:44 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:48:51 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:49:45 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:50:34 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:52:14 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 01:56:41 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:07:02 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:09:29 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:14:02 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:14:55 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:14:55 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 02:14:56 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 02:14:56 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 02:14:56 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 02:14:56 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 02:14:56 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 02:14:56 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 02:14:56 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 02:14:56 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 02:14:56 [main] INFO  Init.AppInitializer - Завантажено 21 салатів
+2025-06-12 02:14:56 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 02:14:57 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 02:16:04 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:17:08 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:19:57 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:22:06 [main] ERROR Application.Main - ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.
+2025-06-12 02:22:06 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 02:22:06 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 02:22:06 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 02:22:06 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 02:22:06 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 02:22:06 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 02:22:06 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 02:22:06 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 02:22:07 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 02:22:07 [main] INFO  Init.AppInitializer - Завантажено 21 салатів
+2025-06-12 02:22:07 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 02:22:07 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 02:22:17 [main] INFO  Application.Main - Кінець роботи програми.
+2025-06-12 03:11:35 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 03:11:36 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 03:11:36 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 03:11:36 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 03:11:36 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 03:11:36 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 03:11:36 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 03:11:36 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 03:11:36 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 03:11:36 [main] INFO  Init.AppInitializer - Завантажено 21 салатів
+2025-06-12 03:11:36 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 03:11:37 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 03:17:02 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 03:17:02 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-12 03:17:02 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 03:23:51 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 03:23:51 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 03:23:53 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 04:20:34 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 04:20:34 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 04:20:35 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 04:20:42 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 04:20:42 [JavaFX Application Thread] INFO  main - Запуск головного меню.

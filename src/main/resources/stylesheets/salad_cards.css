@@ -1,0 +1,125 @@
+.root {
+    -fx-background-image: url("/assets/background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.salad-wrapper {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-padding: 16 24 24 24;
+    -fx-spacing: 18;
+    -fx-max-width: 820;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 4, 0.1, 0, 1);
+    -fx-alignment: center;
+}
+
+.salad-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.06), 2, 0.2, 0, 1);
+}
+
+.salad-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-wrap-text: true;
+    -fx-alignment: center;
+}
+
+.salad-text {
+    -fx-font-size: 13px;
+    -fx-text-fill: #444444;
+    -fx-alignment: center;
+}
+
+.salad-button {
+    -fx-font-size: 12.5px;
+    -fx-padding: 6 14;
+    -fx-background-color: #eeeeee;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.salad-button:hover {
+    -fx-background-color: #d6d6d6;
+}
+
+.back-button {
+    -fx-font-size: 13.5px;
+    -fx-padding: 8 20;
+    -fx-background-color: #e0f7fa;
+    -fx-border-color: #00796b;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-text-fill: #004d40;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 2, 0.2, 0, 1);
+}
+
+.back-button:hover {
+    -fx-background-color: #b2ebf2;
+}
+
+.salad-header {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 8 0;
+    -fx-alignment: center;
+}
+
+.scroll-pane,
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane {
+    -fx-max-width: 760;
+    -fx-padding: 0;
+}
+
+.grid-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+    -fx-alignment: center;
+}
+.sorting-controls {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+.combo-box {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 4 8;
+    -fx-font-size: 13px;
+    -fx-border-color: #ccc;
+    -fx-background-color: #ffffff;
+}
+
+.sort-button {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #ccc;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-padding: 6 14;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+}
+
+.sort-button:hover {
+    -fx-background-color: #d6d6d6;
+}

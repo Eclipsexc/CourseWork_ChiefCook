@@ -1,0 +1,108 @@
+.root {
+    -fx-background-image: url("/assets/background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.form-layout {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 16;
+    -fx-padding: 12 20 20 20;
+    -fx-spacing: 10;
+    -fx-max-width: 520;
+    -fx-max-height: 500;
+}
+
+.highlight-label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e7d32;
+    -fx-padding: 0 0 12 0;
+}
+
+.text-field,
+.combo-box {
+    -fx-pref-width: 320;
+    -fx-max-width: 320;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #bcbcbc;
+    -fx-padding: 10;
+    -fx-background-color: #ffffff;
+    -fx-prompt-text-fill: #222222;
+}
+
+.card-button {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #bcbcbc;
+    -fx-padding: 8 18;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0.2, 0, 1);
+}
+
+.card-button:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.ingredient-row {
+    -fx-spacing: 12;
+    -fx-alignment: center-left;
+    -fx-background-color: rgba(255, 255, 255, 0.85);
+    -fx-background-radius: 12;
+    -fx-padding: 8 14;
+    -fx-max-width: 420;
+}
+
+.ingredient-name {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-min-width: 110;
+    -fx-max-width: 150;
+}
+
+.ingredient-weight {
+    -fx-pref-width: 60;
+    -fx-max-width: 60;
+    -fx-min-width: 60;
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+    -fx-padding: 4;
+}
+
+.remove-button {
+    -fx-background-color: #ffe5e5;
+    -fx-text-fill: #b00020;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-font-weight: bold;
+    -fx-padding: 4 10;
+    -fx-cursor: hand;
+}
+
+.remove-button:hover {
+    -fx-background-color: #ffcccc;
+}
+
+.salad-info-box {
+    -fx-background-color: rgba(255, 255, 255, 0.96);
+    -fx-padding: 14;
+    -fx-spacing: 8;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-max-width: 280;
+    -fx-max-height: 220;
+}
+
+.empty-ingredient-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #888;
+    -fx-padding: 10;
+}
