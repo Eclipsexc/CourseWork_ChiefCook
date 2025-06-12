@@ -69,7 +69,7 @@ public class MakeSaladPane {
         layout.setMaxWidth(520);
 
         Label title = FXComponents.createLabel(
-                editingSalad == null ? "Створення нового салату" : "Редагування салату",
+                editingSalad == null ? "\uD83C\uDF74Створення нового салату" : "\uD83C\uDF74Редагування салату",
                 "highlight-label"
         );
         title.setId("title-label");
@@ -88,7 +88,7 @@ public class MakeSaladPane {
         weightField = FXComponents.createTextField("Задайте вагу (у грамах)", "weight-field", "text-field");
 
         ingredientsBox = FXComponents.createVBox(10, Pos.CENTER);
-        ScrollPane scrollPane = buildIngredientScroll();
+        ScrollPane scrollPane = FXComponents.createFixedHeightScroll(ingredientsBox, 180);
         populateIngredientsBox();
 
         Button addBtn = FXComponents.createButton("Додати інгредієнт", "add-button", "card-button");
@@ -105,18 +105,6 @@ public class MakeSaladPane {
 
         layout.getChildren().addAll(title, nameField, vegetableCombo, weightField, buttonPanel);
         return layout;
-    }
-
-    private ScrollPane buildIngredientScroll() {
-        ScrollPane scroll = new ScrollPane(ingredientsBox);
-        scroll.setFitToWidth(true);
-        scroll.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
-        scroll.setVbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
-        scroll.setPrefHeight(180);
-        scroll.setMaxHeight(180);
-        scroll.setStyle("-fx-background-color: transparent;");
-        scroll.setId("ingredients-scroll");
-        return scroll;
     }
 
     private void populateIngredientsBox() {

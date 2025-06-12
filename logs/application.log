@@ -732,3 +732,142 @@ com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'CourseWo
 2025-06-12 04:20:35 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
 2025-06-12 04:20:42 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
 2025-06-12 04:20:42 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:11:42 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 11:11:42 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 11:11:42 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 11:11:43 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 11:11:43 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 11:11:43 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 11:11:43 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:11:43 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 11:11:43 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:11:43 [main] INFO  Init.AppInitializer - Завантажено 21 салатів
+2025-06-12 11:11:43 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 11:11:43 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:11:50 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 11:11:50 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-12 11:11:51 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 11:11:52 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 11:11:52 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:11:53 [main] INFO  Application.Main - Кінець роботи програми.
+2025-06-12 11:20:26 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 11:20:27 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 11:20:27 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 11:20:27 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 11:20:27 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 11:20:27 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 11:20:27 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:20:27 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 11:20:27 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:20:27 [main] INFO  Init.AppInitializer - Завантажено 21 салатів
+2025-06-12 11:20:27 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 11:20:27 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:20:29 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 11:20:29 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:20:29 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 21 салатів з бази
+2025-06-12 11:27:42 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 11:27:43 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 11:27:43 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 11:27:43 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 11:27:43 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 11:27:43 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 11:27:43 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:27:43 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 11:27:43 [main] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:27:43 [main] INFO  Init.AppInitializer - Завантажено 21 салатів
+2025-06-12 11:27:43 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 11:27:43 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:27:47 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 11:27:57 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Авокадо (132.0 г)
+2025-06-12 11:27:59 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Морква (42.0 г)
+2025-06-12 11:28:01 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Перець Чілі (52.0 г)
+2025-06-12 11:28:03 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Пекінська капуста (55.0 г)
+2025-06-12 11:28:08 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Перець Чілі (55.0 г)
+2025-06-12 11:28:10 [JavaFX Application Thread] INFO  DB.SaladDAO - Успішно додано салат 'Смачний' з ID 2183
+2025-06-12 11:28:10 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Створено новий салат: Смачний
+2025-06-12 11:28:11 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 11:28:11 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:28:12 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 11:28:12 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:28:12 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 22 салатів з бази
+2025-06-12 11:28:13 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Сонячна тарілка
+2025-06-12 11:28:13 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Сонячна тарілка
+2025-06-12 11:29:18 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 11:29:18 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 11:29:18 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 11:29:18 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 11:29:18 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 11:29:18 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 11:29:18 [main] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:29:18 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 11:29:18 [main] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:29:18 [main] INFO  Init.AppInitializer - Завантажено 22 салатів
+2025-06-12 11:29:18 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 11:29:19 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:29:20 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 11:29:20 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:29:20 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 22 салатів з бази
+2025-06-12 11:29:21 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Сонячна тарілка
+2025-06-12 11:29:21 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Сонячна тарілка
+2025-06-12 11:29:23 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 11:29:23 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:29:24 [main] INFO  Application.Main - Кінець роботи програми.
+2025-06-12 11:30:46 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 11:30:46 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 11:30:46 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 11:30:46 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 11:30:46 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 11:30:46 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 11:30:46 [main] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:30:46 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 11:30:46 [main] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:30:46 [main] INFO  Init.AppInitializer - Завантажено 22 салатів
+2025-06-12 11:30:46 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 11:30:47 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:30:52 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 11:30:52 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:30:52 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 22 салатів з бази
+2025-06-12 11:30:53 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Овочевий хруст
+2025-06-12 11:30:53 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Овочевий хруст
+2025-06-12 11:37:49 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 11:37:50 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 11:37:50 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 11:37:50 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 11:37:50 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 11:37:50 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 11:37:50 [main] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:37:50 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 11:37:50 [main] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:37:50 [main] INFO  Init.AppInitializer - Завантажено 22 салатів
+2025-06-12 11:37:50 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 11:37:51 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:37:52 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 11:37:52 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:37:52 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 22 салатів з бази
+2025-06-12 11:37:54 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Овочевий хруст
+2025-06-12 11:37:54 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Овочевий хруст
+2025-06-12 11:37:54 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 27.2 (Перець Чілі), Мін. ккал: 13.44 (Цибуля)
+2025-06-12 11:37:56 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Редагування салату: Овочевий хруст
+2025-06-12 11:37:59 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 11:37:59 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:37:59 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 11:37:59 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 22 салатів з бази
+2025-06-12 11:37:59 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 22 салатів з бази
+2025-06-12 11:38:03 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Вибух кольорів
+2025-06-12 11:38:03 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Вибух кольорів
+2025-06-12 11:38:03 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 51.12 (Цибуля), Мін. ккал: 9.3 (Огірок)
+2025-06-12 11:38:04 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: Вибух кольорів
+2025-06-12 11:38:04 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2181, рядків: 1
+2025-06-12 11:38:04 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 11:38:04 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-12 11:38:07 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 11:38:07 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:38:08 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 11:38:09 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 11:38:09 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 11:38:09 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 11:38:09 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-12 11:38:10 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 11:38:12 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 11:38:12 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 12:05:06 [main] INFO  Application.Main - Кінець роботи програми.

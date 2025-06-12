@@ -1,12 +1,9 @@
 package Display;
 
 import FXUtils.FXComponents;
-import DB.SaladDAO;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
@@ -40,18 +37,18 @@ public class ConsoleMenu extends Application {
         VBox menuPanel = FXComponents.createVBox(15, Insets.EMPTY);
         panel.getChildren().add(menuPanel);
 
-        addButton(menuPanel, "Переглянути наявні овочі", () -> {
+        FXComponents.addMenuButton(menuPanel, "Переглянути наявні овочі", () -> {
             LOGGER.info("Вибрано: Переглянути наявні овочі");
             VegetableTablePane tablePane = new VegetableTablePane(Arrays.asList(availableVegetables));
             tablePane.showAsNewScene(primaryStage);
         });
 
-        addButton(menuPanel, "Зробити салат", () -> {
+        FXComponents.addMenuButton(menuPanel, "Зробити салат", () -> {
             LOGGER.info("Вибрано: Зробити салат");
             new MakeSaladPane(availableVegetables, saladDAO, primaryStage, null).show();
         });
 
-        addButton(menuPanel, "Переглянути список салатів", () -> {
+        FXComponents.addMenuButton(menuPanel, "Переглянути список салатів", () -> {
             LOGGER.info("Вибрано: Переглянути список салатів");
             SaladManagerPane managerPane = new SaladManagerPane(
                     Arrays.asList(availableVegetables),
@@ -73,7 +70,7 @@ public class ConsoleMenu extends Application {
             FXComponents.setScene(primaryStage, newRoot, "/stylesheets/salad_cards.css");
         });
 
-        addButton(menuPanel, "Завершити програму", () -> {
+        FXComponents.addMenuButton(menuPanel, "Завершити програму", () -> {
             LOGGER.info("Програму завершено користувачем.");
             System.exit(0);
         });
@@ -84,41 +81,4 @@ public class ConsoleMenu extends Application {
         primaryStage.setTitle("Шеф-повар");
         primaryStage.show();
     }
-
-    private void addButton(VBox container, String label, Runnable action) {
-        HBox wrapper = new HBox(10);
-        wrapper.setAlignment(Pos.CENTER);
-        wrapper.getStyleClass().add("hbox");
-
-        Label arrowLeft = new Label("⮞");
-        arrowLeft.setVisible(false);
-        arrowLeft.getStyleClass().add("arrow-label");
-
-        Button button = FXComponents.createStyledButton(label, 300);
-
-        Label arrowRight = new Label("⮜");
-        arrowRight.setVisible(false);
-        arrowRight.getStyleClass().add("arrow-label");
-
-        button.setOnMouseEntered(e -> {
-            arrowLeft.setVisible(true);
-            arrowRight.setVisible(true);
-        });
-        button.setOnMouseExited(e -> {
-            arrowLeft.setVisible(false);
-            arrowRight.setVisible(false);
-        });
-
-        button.setOnAction(e -> {
-            try {
-                action.run();
-            } catch (Exception ex) {
-                LOGGER.error("Помилка при виконанні дії кнопки '{}'", label, ex);
-            }
-        });
-
-        wrapper.getChildren().addAll(arrowLeft, button, arrowRight);
-        container.getChildren().add(wrapper);
-    }
-
 }

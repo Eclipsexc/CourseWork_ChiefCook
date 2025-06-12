@@ -31,15 +31,34 @@ public class SaladDetailsDialog extends Dialog<Void> {
         );
 
         SaladCalculator calc = new SaladCalculator();
-
-        double maxKcal = -1, minKcal = Double.MAX_VALUE;
-        Vegetable maxVeg = null, minVeg = null;
         Set<String> vitamins = new TreeSet<>();
 
+        GridPane ingredientGrid = createIngredientGrid(salad, vitamins);
+        double totalWeight = calc.calculateTotalWeight(salad);
+        double totalCalories = calc.calculateTotalCalories(salad);
+        double proteins = calc.calculateTotalProteins(salad);
+        double fats = calc.calculateTotalFats(salad);
+        double carbs = calc.calculateTotalCarbohydrates(salad);
+
+        VBox dialogContent = createDialogContent(salad, calc, vitamins, ingredientGrid, totalWeight, totalCalories, proteins, fats, carbs);
+
+        HBox buttonsBar = createButtonsBar(salad, saladDAO, parentStage, onBack);
+
+        dialogContent.getChildren().add(buttonsBar);
+
+        getDialogPane().setContent(dialogContent);
+        getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
+        getDialogPane().lookupButton(ButtonType.CLOSE).setVisible(false);
+    }
+
+    private GridPane createIngredientGrid(Salad salad, Set<String> vitamins) {
         GridPane ingredientGrid = new GridPane();
         ingredientGrid.getStyleClass().add("ingredient-grid");
 
         int row = 0;
+        double maxKcal = -1, minKcal = Double.MAX_VALUE;
+        Vegetable maxVeg = null, minVeg = null;
+
         for (Map.Entry<Vegetable, Double> entry : salad.getIngredients().entrySet()) {
             Vegetable v = entry.getKey();
             double grams = entry.getValue();
@@ -67,18 +86,14 @@ public class SaladDetailsDialog extends Dialog<Void> {
             vitamins.addAll(v.getVitamins());
         }
 
-        LOGGER.info("Салат '{}' містить {} інгредієнтів", salad.getName(), salad.getIngredients().size());
         if (maxVeg != null && minVeg != null) {
-            LOGGER.info("Макс. ккал: {} ({}), Мін. ккал: {} ({})",
-                    maxKcal, maxVeg.getName(), minKcal, minVeg.getName());
+            LOGGER.info("Макс. ккал: {} ({}), Мін. ккал: {} ({})", maxKcal, maxVeg.getName(), minKcal, minVeg.getName());
         }
 
-        double totalWeight = calc.calculateTotalWeight(salad);
-        double totalCalories = calc.calculateTotalCalories(salad);
-        double proteins = calc.calculateTotalProteins(salad);
-        double fats = calc.calculateTotalFats(salad);
-        double carbs = calc.calculateTotalCarbohydrates(salad);
+        return ingredientGrid;
+    }
 
+    private VBox createDialogContent(Salad salad, SaladCalculator calc, Set<String> vitamins, GridPane ingredientGrid, double totalWeight, double totalCalories, double proteins, double fats, double carbs) {
         Label title = new Label(salad.getName());
         title.getStyleClass().add("salad-title");
 
@@ -88,25 +103,40 @@ public class SaladDetailsDialog extends Dialog<Void> {
         Label total = new Label(String.format("Загальна вага: %.2f г\nЕнергетична цінність: %.2f ккал", totalWeight, totalCalories));
         total.getStyleClass().add("summary-label");
 
-        Label calMax = new Label("Найкалорійніший: " + maxVeg.getName() + String.format(" (%.1f ккал)", calc.round(maxKcal)));
-        Label calMin = new Label("Найменш калорійний: " + minVeg.getName() + String.format(" (%.1f ккал)", calc.round(minKcal)));
+        Label calMax = new Label("Найкалорійніший: " + calc.round(totalCalories) + " ккал");
+        Label calMin = new Label("Найменш калорійний: " + calc.round(totalCalories) + " ккал");
         calMax.getStyleClass().add("stat-label");
         calMin.getStyleClass().add("stat-label");
 
         Label vits = new Label("Вітаміни: " + String.join(", ", vitamins));
         vits.getStyleClass().add("stat-label");
 
-        Label macros = new Label(String.format("Білки: %.2f г   Вуглеводи: %.2f г   Жири: %.2f г",
-                proteins, carbs, fats));
+        Label macros = new Label(String.format("Білки: %.2f г   Вуглеводи: %.2f г   Жири: %.2f г", proteins, carbs, fats));
         macros.getStyleClass().add("stat-label");
 
+        VBox dialogContent = new VBox(10,
+                title,
+                section1,
+                ingredientGrid,
+                total,
+                calMax,
+                calMin,
+                vits,
+                macros
+        );
+        dialogContent.getStyleClass().add("details-pane");
+
+        return dialogContent;
+    }
+
+    private HBox createButtonsBar(Salad salad, SaladDAO saladDAO, Stage parentStage, Runnable onBack) {
         Button editButton = new Button("Редагувати");
         editButton.getStyleClass().add("button-green");
         editButton.setOnAction(e -> {
             LOGGER.info("Редагування салату: {}", salad.getName());
             close();
             new MakeSaladPane(
-                    allVegetables.toArray(new Vegetable[0]),
+                    new Vegetable[0],
                     saladDAO,
                     parentStage,
                     salad
@@ -133,21 +163,6 @@ public class SaladDetailsDialog extends Dialog<Void> {
         buttonsBar.setAlignment(Pos.CENTER);
         buttonsBar.setPadding(new Insets(10, 0, 0, 0));
 
-        VBox dialogContent = new VBox(10,
-                title,
-                section1,
-                ingredientGrid,
-                total,
-                calMax,
-                calMin,
-                vits,
-                macros,
-                buttonsBar
-        );
-        dialogContent.getStyleClass().add("details-pane");
-
-        getDialogPane().setContent(dialogContent);
-        getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
-        getDialogPane().lookupButton(ButtonType.CLOSE).setVisible(false);
+        return buttonsBar;
     }
 }

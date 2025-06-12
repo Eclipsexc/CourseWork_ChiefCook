@@ -42,7 +42,7 @@ public class SaladManagerPane extends StackPane {
         ScrollPane scrollPane = FXComponents.wrapInStyledScrollPane(grid);
 
         VBox wrapper = FXComponents.createWrapperVBox();
-        Label header = FXComponents.createHeaderLabel("\uD83E\uDD57Список салатів", "saladListTitle");
+        Label header = FXComponents.createHeaderLabel("\uD83E\uDD57 Список салатів", "saladListTitle");
         Button backButton = FXComponents.createBackButton("Повернутись до меню", onBack);
 
         wrapper.getChildren().addAll(header, sortingBox, scrollPane, backButton);

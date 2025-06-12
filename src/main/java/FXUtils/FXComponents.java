@@ -38,7 +38,6 @@ public class FXComponents {
         return backButton;
     }
 
-
     public static VBox createVBox(int spacing, Insets padding, String... styleClasses) {
         VBox vbox = new VBox(spacing);
         vbox.setPadding(padding);
@@ -152,4 +151,46 @@ public class FXComponents {
                 FXComponents.class.getResource(cssPath)).toExternalForm());
         stage.setScene(scene);
     }
+
+    public static void addMenuButton(VBox container, String label, Runnable action) {
+        HBox wrapper = new HBox(10);
+        wrapper.setAlignment(Pos.CENTER);
+        wrapper.getStyleClass().add("hbox");
+
+        Label arrowLeft = new Label("⮞");
+        arrowLeft.setVisible(false);
+        arrowLeft.getStyleClass().add("arrow-label");
+
+        Button button = createStyledButton(label, 300);
+
+        Label arrowRight = new Label("⮜");
+        arrowRight.setVisible(false);
+        arrowRight.getStyleClass().add("arrow-label");
+
+        button.setOnMouseEntered(e -> {
+            arrowLeft.setVisible(true);
+            arrowRight.setVisible(true);
+        });
+
+        button.setOnMouseExited(e -> {
+            arrowLeft.setVisible(false);
+            arrowRight.setVisible(false);
+        });
+
+        button.setOnAction(e -> action.run());
+
+        wrapper.getChildren().addAll(arrowLeft, button, arrowRight);
+        container.getChildren().add(wrapper);
+    }
+    public static ScrollPane createFixedHeightScroll(Region content, double height) {
+        ScrollPane scroll = new ScrollPane(content);
+        scroll.setFitToWidth(true);
+        scroll.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
+        scroll.setVbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
+        scroll.setPrefHeight(height);
+        scroll.setMaxHeight(height);
+        scroll.setStyle("-fx-background-color: transparent;");
+        return scroll;
+    }
+
 }
