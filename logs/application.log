@@ -1534,3 +1534,108 @@ com.microsoft.sqlserver.jdbc.SQLServerException: String or binary data would be 
 2025-06-12 14:10:45 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
 2025-06-12 14:10:45 [JavaFX Application Thread] INFO  main - Запуск головного меню.
 2025-06-12 14:10:46 [JavaFX Application Thread] INFO  main - Програму завершено користувачем.
+2025-06-12 14:13:51 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 14:13:52 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 14:13:52 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 14:13:52 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 14:13:52 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 14:13:52 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 14:13:52 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:13:52 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 14:13:52 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:13:52 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-12 14:13:52 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 14:13:53 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:13:55 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 14:13:55 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:13:55 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-12 14:13:59 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Вибух кольорів
+2025-06-12 14:13:59 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Вибух кольорів
+2025-06-12 14:13:59 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Вибух кольорів' містить 4 інгредієнтів
+2025-06-12 14:13:59 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 60.14 (Кукурудза), Мін. ккал: 7.42 (Редиска)
+2025-06-12 14:14:02 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Редагування салату: Вибух кольорів
+2025-06-12 14:14:06 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Оновлено вагу для Огірок: 221.0 г
+2025-06-12 14:14:06 [JavaFX Application Thread] INFO  DB.SaladDAO - Оновлено салат 'Вибух кольорів' (ID=2250) з 4 інгредієнтами
+2025-06-12 14:14:06 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Оновлено салат: Вибух кольорів
+2025-06-12 14:14:07 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 14:14:07 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:14:08 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 14:14:08 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:14:08 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-12 14:14:10 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Вибух кольорів
+2025-06-12 14:14:10 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Вибух кольорів
+2025-06-12 14:14:10 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Вибух кольорів' містить 4 інгредієнтів
+2025-06-12 14:14:10 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 60.14 (Кукурудза), Мін. ккал: 7.42 (Редиска)
+2025-06-12 14:14:29 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Редагування салату: Вибух кольорів
+2025-06-12 14:14:36 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Огірок (2.0 г)
+2025-06-12 14:14:40 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Видалено інгредієнт: Цибуля
+2025-06-12 14:14:40 [JavaFX Application Thread] INFO  DB.SaladDAO - Оновлено салат 'Вибух кольорів' (ID=2250) з 3 інгредієнтами
+2025-06-12 14:14:40 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Оновлено салат: Вибух кольорів
+2025-06-12 14:14:41 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 14:14:41 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:14:42 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 14:14:42 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:14:42 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 20 салатів з бази
+2025-06-12 14:14:44 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Вибух кольорів
+2025-06-12 14:14:44 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Вибух кольорів
+2025-06-12 14:14:44 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Вибух кольорів' містить 3 інгредієнтів
+2025-06-12 14:14:44 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 60.14 (Кукурудза), Мін. ккал: 7.42 (Редиска)
+2025-06-12 14:14:45 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Закрито діалог салату: Вибух кольорів
+2025-06-12 14:14:47 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 14:14:47 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:14:48 [main] INFO  Application.Main - Кінець роботи програми.
+2025-06-12 14:50:56 [main] INFO  Application.Main - Ініціалізація програми...
+2025-06-12 14:50:57 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 14:50:57 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 14:50:57 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 14:50:57 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 14:50:57 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 14:50:57 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:50:57 [main] INFO  Init.SaladSeeder - Таблиця салатів вже містить дані — сідер не використовується.
+2025-06-12 14:50:57 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:50:57 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-12 14:50:57 [main] INFO  Application.Main - Ініціалізацію завершено. Запуск GUI.
+2025-06-12 14:50:57 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:51:21 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 14:51:21 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 11
+2025-06-12 14:51:22 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 14:51:30 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Виконано сортування: CALORIES (ASCENDING)
+2025-06-12 14:51:32 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Параметри фільтра та сортування скинуто.
+2025-06-12 14:51:35 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Виконано фільтрацію за вітаміном: B1
+2025-06-12 14:51:37 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 14:51:37 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:51:38 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 14:51:54 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Авокадо (5.0 г)
+2025-06-12 14:52:02 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Морква (0.2 г)
+2025-06-12 14:52:03 [JavaFX Application Thread] INFO  DB.SaladDAO - Успішно додано салат 'ампрол' з ID 2294
+2025-06-12 14:52:03 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Створено новий салат: ампрол
+2025-06-12 14:52:04 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 14:52:04 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:52:05 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 14:52:05 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 14:52:05 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 21 салатів з бази
+2025-06-12 14:52:12 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Гострий мікс
+2025-06-12 14:52:12 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Гострий мікс
+2025-06-12 14:52:12 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Гострий мікс' містить 4 інгредієнтів
+2025-06-12 14:52:12 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 276.8 (Авокадо), Мін. ккал: 18.12 (Пекінська капуста)
+2025-06-12 14:52:14 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Редагування салату: Гострий мікс
+2025-06-12 14:52:22 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 14:52:22 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:52:23 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 14:52:23 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 21 салатів з бази
+2025-06-12 14:52:23 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 21 салатів з бази
+2025-06-12 14:52:24 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Свіжість лісу
+2025-06-12 14:52:24 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Свіжість лісу
+2025-06-12 14:52:24 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'Свіжість лісу' містить 5 інгредієнтів
+2025-06-12 14:52:24 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 74.69 (Кукурудза), Мін. ккал: 13.68 (Цибуля)
+2025-06-12 14:52:28 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: ампрол
+2025-06-12 14:52:28 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: ампрол
+2025-06-12 14:52:28 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Салат 'ампрол' містить 2 інгредієнтів
+2025-06-12 14:52:28 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 8.0 (Авокадо), Мін. ккал: 0.08200000000000002 (Морква)
+2025-06-12 14:52:29 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Видалено салат: ампрол
+2025-06-12 14:52:29 [JavaFX Application Thread] INFO  DB.SaladDAO - Видалено салат з ID 2294, рядків: 1
+2025-06-12 14:52:29 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 14:52:29 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Оновлено список салатів після дії у вікні деталей
+2025-06-12 14:52:46 [JavaFX Application Thread] INFO  main - Повернення до головного меню.
+2025-06-12 14:52:46 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 14:54:58 [JavaFX Application Thread] INFO  main - Програму завершено користувачем.

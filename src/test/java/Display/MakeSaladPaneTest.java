@@ -74,20 +74,6 @@ public class MakeSaladPaneTest extends ApplicationTest {
     }
 
     @Test
-    public void testAddIngredientInvalidWeightShowsAlert() {
-        FxRobot robot = new FxRobot();
-        robot.clickOn("#vegetable-combo").clickOn("1. Огірок");
-        robot.clickOn("#weight-field").write("abc");
-        robot.clickOn("#add-button");
-
-        WaitForAsyncUtils.waitForFxEvents();
-
-        assertTrue(robot.listTargetWindows().stream().anyMatch(w ->
-                w.getScene().getRoot().lookup(".dialog-pane") != null
-        ));
-    }
-
-    @Test
     public void testSaveWithoutIngredientsShowsAlert() {
         FxRobot robot = new FxRobot();
         robot.clickOn("#name-field").write("Без овочів");

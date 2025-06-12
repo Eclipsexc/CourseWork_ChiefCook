@@ -10,8 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(Main.class);
-        //logger.error("ТЕСТ ПОВІДОМЛЕННЯ: Лист має бути відправлений.");
-
+        
         logger.info("Ініціалізація програми...");
         boolean success = AppInitializer.initializeApp();
 

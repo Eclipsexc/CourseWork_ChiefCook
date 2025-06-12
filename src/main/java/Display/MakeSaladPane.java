@@ -90,10 +90,9 @@ public class MakeSaladPane {
 
         weightField = FXComponents.createTextField("Задайте вагу (у грамах)", "weight-field", "text-field");
 
-        // Створення TextFormatter для поля ваги, яке дозволяє вводити лише числа більше за нуль
         TextFormatter<Double> weightFormatter = new TextFormatter<>(change -> {
             String newText = change.getText();
-            // Дозволяється лише числовий ввід з одним десятковим роздільником
+
             if (newText.matches("[0-9]*\\.?[0-9]*")) {
                 return change;
             }
