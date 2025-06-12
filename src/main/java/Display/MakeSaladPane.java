@@ -12,12 +12,15 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
+import javafx.scene.control.TextFormatter;  // Правильний імпорт для TextFormatter
+import javafx.util.Callback;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
 public class MakeSaladPane {
+
     private static final Logger LOGGER = LoggerFactory.getLogger(MakeSaladPane.class);
 
     private final Vegetable[] availableVegetables;
@@ -87,6 +90,17 @@ public class MakeSaladPane {
 
         weightField = FXComponents.createTextField("Задайте вагу (у грамах)", "weight-field", "text-field");
 
+        // Створення TextFormatter для поля ваги, яке дозволяє вводити лише числа більше за нуль
+        TextFormatter<Double> weightFormatter = new TextFormatter<>(change -> {
+            String newText = change.getText();
+            // Дозволяється лише числовий ввід з одним десятковим роздільником
+            if (newText.matches("[0-9]*\\.?[0-9]*")) {
+                return change;
+            }
+            return null;
+        });
+        weightField.setTextFormatter(weightFormatter);
+
         ingredientsBox = FXComponents.createVBox(10, Pos.CENTER);
         ScrollPane scrollPane = FXComponents.createFixedHeightScroll(ingredientsBox, 180);
         populateIngredientsBox();
@@ -150,8 +164,13 @@ public class MakeSaladPane {
         String weightText = weightField.getText().trim();
         if (selected == null || weightText.isEmpty()) return;
         try {
-            int index = Integer.parseInt(selected.split("\\.")[0]) - 1;
             double weight = Double.parseDouble(weightText);
+
+            if (weight <= 0) {
+                throw new IllegalArgumentException("Вага не може бути нульовою або від'ємною");
+            }
+
+            int index = Integer.parseInt(selected.split("\\.")[0]) - 1;
             Vegetable veg = availableVegetables[index];
             currentSalad.getIngredients().merge(veg, weight, Double::sum);
             LOGGER.info("Додано інгредієнт: {} ({} г)", veg.getName(), weight);
@@ -159,7 +178,24 @@ public class MakeSaladPane {
             populateIngredientsBox();
         } catch (Exception ex) {
             LOGGER.error("Помилка при додаванні інгредієнта", ex);
-            new Alert(Alert.AlertType.ERROR, "Введіть правильне число.").showAndWait();
+            new Alert(Alert.AlertType.ERROR, "Введіть правильне число більше за нуль.").showAndWait();
+        }
+    }
+
+    private void handleWeightEdit(TextField field, Vegetable veg, double oldWeight) {
+        try {
+            double newWeight = Double.parseDouble(field.getText().trim());
+
+            if (newWeight <= 0) {
+                throw new IllegalArgumentException("Вага не може бути нульовою або від'ємною");
+            }
+
+            currentSalad.getIngredients().put(veg, newWeight);
+            LOGGER.info("Оновлено вагу для {}: {} г", veg.getName(), newWeight);
+        } catch (Exception ex) {
+            field.setText(String.valueOf(calculator.round(oldWeight)));
+            LOGGER.warn("Некоректна вага для {}. Повернуто старе значення: {}", veg.getName(), oldWeight);
+            new Alert(Alert.AlertType.WARNING, "Некоректна вага. Вага має бути більше за нуль.").showAndWait();
         }
     }
 
@@ -182,18 +218,6 @@ public class MakeSaladPane {
         } catch (Exception ex) {
             LOGGER.error("Не вдалося зберегти салат", ex);
             new Alert(Alert.AlertType.ERROR, "Помилка збереження: " + ex.getMessage()).showAndWait();
-        }
-    }
-
-    private void handleWeightEdit(TextField field, Vegetable veg, double oldWeight) {
-        try {
-            double newWeight = Double.parseDouble(field.getText().trim());
-            currentSalad.getIngredients().put(veg, newWeight);
-            LOGGER.info("Оновлено вагу для {}: {} г", veg.getName(), newWeight);
-        } catch (Exception ex) {
-            field.setText(String.valueOf(calculator.round(oldWeight)));
-            LOGGER.warn("Некоректна вага для {}. Повернуто старе значення: {}", veg.getName(), oldWeight);
-            new Alert(Alert.AlertType.WARNING, "Некоректна вага.").showAndWait();
         }
     }
 

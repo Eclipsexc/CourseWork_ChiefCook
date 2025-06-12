@@ -4326,3 +4326,371 @@ java.lang.RuntimeException: Помилка меню
 2025-06-12 01:17:41 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
 2025-06-12 01:17:42 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
 2025-06-12 01:17:42 [main] INFO  Init.VegetableSeeder - Успішно збережено 11 овочів у таблицю.
+2025-06-12 13:25:00 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:00 [main] INFO  DB.VegetableDAO - Зчитано 2 овочів з бази
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Зчитано 0 овочів з бази
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:01 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:02 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Зчитано 0 овочів з бази
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:02 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:02 [main] INFO  Init.VegetableSeeder - Успішно збережено 11 овочів у таблицю.
+2025-06-12 13:25:03 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:25:03 [main] INFO  Init.SaladSeeder - Сідінг таблиці салатів (20) випадковими даними...
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Овочевий хруст' з ID 2184
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Сонячна тарілка' з ID 2185
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий мікс' з ID 2186
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Фітнес-бомба' з ID 2187
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Свіжість лісу' з ID 2188
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Кремовий день' з ID 2189
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Літній настрій' з ID 2190
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Бадьорість ранку' з ID 2191
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гармонія смаку' з ID 2192
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Блискавка' з ID 2193
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Зелений шторм' з ID 2194
+2025-06-12 13:25:03 [main] INFO  DB.SaladDAO - Успішно додано салат 'Смак свободи' з ID 2195
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Червоний спалах' з ID 2196
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Острів здоров’я' з ID 2197
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат-настрій' з ID 2198
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Огірок і друзі»' з ID 2199
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Пекінський привіт»' з ID 2200
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Формула вітамінів' з ID 2201
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий герой' з ID 2202
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Успішно додано салат 'Вибух кольорів' з ID 2203
+2025-06-12 13:25:04 [main] INFO  Init.SaladSeeder - Успішно згенеровано 20 салатів.
+2025-06-12 13:25:04 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:04 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:05 [main] WARN  DB.VegetableDAO - Таблиця Vegetables очищена, видалено 11 записів
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Зчитано 0 овочів з бази
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Зчитано 0 овочів з бази
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:05 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:05 [main] INFO  Init.VegetableSeeder - Успішно збережено 11 овочів у таблицю.
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:14 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:25:14 [main] INFO  DB.SaladDAO - Успішно додано салат 'Тестовий салат' з ID 2204
+2025-06-12 13:25:14 [main] INFO  DB.SaladDAO - Зчитано 1 салатів з бази
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:14 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Успішно додано салат 'Для видалення' з ID 2205
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Зчитано 1 салатів з бази
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Видалено салат з ID 2205, рядків: 1
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:15 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Успішно додано салат 'Оригінальний салат' з ID 2206
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Оновлено салат 'Оновлений салат' (ID=2206) з 1 інгредієнтами
+2025-06-12 13:25:15 [main] INFO  DB.SaladDAO - Зчитано 1 салатів з бази
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Авокадо' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Буряк' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Морква' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Цвітна капуста' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Перець Чілі' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Перець Халапеньйо' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Пекінська капуста' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Кукурудза' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Огірок' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Цибуля' успішно вставлено в базу
+2025-06-12 13:25:16 [main] INFO  DB.VegetableDAO - Овоч 'Редиска' успішно вставлено в базу
+2025-06-12 13:25:21 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Огірок (123.0 г)
+2025-06-12 13:25:25 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Огірок (100.0 г)
+2025-06-12 13:25:26 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Оновлено вагу для Огірок: 200.0 г
+2025-06-12 13:25:26 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Створено новий салат: Огірковий мікс
+2025-06-12 13:25:27 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 13:25:27 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:25:29 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Огірок (100.0 г)
+2025-06-12 13:25:29 [JavaFX Application Thread] WARN  Display.MakeSaladPane - Помилка валідації: Назва не може бути порожньою
+2025-06-12 13:25:32 [JavaFX Application Thread] ERROR Display.MakeSaladPane - Помилка при додаванні інгредієнта
+java.lang.NumberFormatException: For input string: "abc"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:792)
+	at Display.MakeSaladPane.handleAddIngredient(MakeSaladPane.java:154)
+	at Display.MakeSaladPane.lambda$buildFormLayout$0(MakeSaladPane.java:95)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.scene.control.Button.fire(Button.java:203)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12 13:25:35 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Додано інгредієнт: Огірок (100.0 г)
+2025-06-12 13:25:36 [JavaFX Application Thread] INFO  Display.MakeSaladPane - Створено новий салат: Весняний салат
+2025-06-12 13:25:36 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 13:25:36 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:25:39 [JavaFX Application Thread] WARN  Display.MakeSaladPane - Помилка валідації: Салат має містити хоча б один інгредієнт
+2025-06-12 13:25:39 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 3
+2025-06-12 13:25:39 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:25:41 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Виконано сортування: CALORIES (DESCENDING)
+2025-06-12 13:25:42 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 3
+2025-06-12 13:25:42 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:25:42 [JavaFX Application Thread] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 13:25:42 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:25:43 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 3
+2025-06-12 13:25:43 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:25:44 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 3
+2025-06-12 13:25:44 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:25:44 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 3
+2025-06-12 13:25:44 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:25:45 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Параметри фільтра та сортування скинуто.
+2025-06-12 13:25:45 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 3
+2025-06-12 13:25:45 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:25:47 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Виконано фільтрацію за смаком: солодкий
+2025-06-12 13:25:47 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 3
+2025-06-12 13:25:47 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:25:50 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Виконано фільтрацію за вітаміном: C
+2025-06-12 13:25:50 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 1 салатів з бази
+2025-06-12 13:25:51 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Овочевий хруст
+2025-06-12 13:25:51 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Овочевий хруст
+2025-06-12 13:25:51 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 30.0 (Капуста), Мін. ккал: 30.0 (Капуста)
+2025-06-12 13:25:52 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 1 салатів з бази
+2025-06-12 13:25:52 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 1 салатів з бази
+2025-06-12 13:25:55 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Салати відсортовано за енергетичною цінністю (DESC)
+2025-06-12 13:25:55 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 1 салатів з бази
+2025-06-12 13:25:56 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Перегляд деталей салату: Овочевий хруст
+2025-06-12 13:25:56 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Овочевий хруст
+2025-06-12 13:25:56 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 30.0 (Капуста), Мін. ккал: 30.0 (Капуста)
+2025-06-12 13:25:57 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Редагування салату: Овочевий хруст
+2025-06-12 13:25:57 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 1 салатів з бази
+2025-06-12 13:25:59 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Салати відсортовано за вагою (ASC)
+2025-06-12 13:26:00 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 1 салатів з бази
+2025-06-12 13:26:00 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Тестовий салат
+2025-06-12 13:26:00 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 35.0 (Морква), Мін. ккал: 20.0 (Цибуля)
+2025-06-12 13:26:00 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Тестовий салат
+2025-06-12 13:26:00 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 35.0 (Морква), Мін. ккал: 20.0 (Цибуля)
+2025-06-12 13:26:01 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Закрито діалог салату: Тестовий салат
+2025-06-12 13:26:01 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Тестовий салат
+2025-06-12 13:26:01 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 35.0 (Морква), Мін. ккал: 20.0 (Цибуля)
+2025-06-12 13:26:02 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Відкрито діалог перегляду салату: Тестовий салат
+2025-06-12 13:26:02 [JavaFX Application Thread] INFO  Display.SaladDetailsDialog - Макс. ккал: 35.0 (Морква), Мін. ккал: 20.0 (Цибуля)
+2025-06-12 13:26:02 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:26:03 [JavaFX Application Thread] INFO  main - Вибрано: Зробити салат
+2025-06-12 13:26:03 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:26:04 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути список салатів
+2025-06-12 13:26:04 [JavaFX Application Thread] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:26:04 [JavaFX Application Thread] INFO  Display.SaladManagerPane - Завантажено 0 салатів з бази
+2025-06-12 13:26:04 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:26:05 [JavaFX Application Thread] INFO  main - Вибрано: Переглянути наявні овочі
+2025-06-12 13:26:05 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Таблиця овочів ініціалізована. Всього елементів: 1
+2025-06-12 13:26:05 [JavaFX Application Thread] INFO  Display.VegetableTablePane - Сцена з таблицею овочів ініціалізована.
+2025-06-12 13:26:05 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:26:05 [JavaFX Application Thread] INFO  main - Запуск головного меню.
+2025-06-12 13:26:06 [main] INFO  Init.AppInitializer - Підключення до бази даних успішне
+2025-06-12 13:26:06 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація овочів...
+2025-06-12 13:26:06 [main] INFO  DB.VegetableDAO - Зчитано 11 овочів з бази
+2025-06-12 13:26:06 [main] INFO  Init.AppInitializer - Завантажено 11 овочів
+2025-06-12 13:26:06 [main] INFO  Init.AppInitializer - Перевірка/ініціалізація салатів...
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Зчитано 0 салатів з бази
+2025-06-12 13:26:06 [main] INFO  Init.SaladSeeder - Сідінг таблиці салатів (20) випадковими даними...
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Овочевий хруст' з ID 2207
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Сонячна тарілка' з ID 2208
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий мікс' з ID 2209
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Фітнес-бомба' з ID 2210
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Свіжість лісу' з ID 2211
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Кремовий день' з ID 2212
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Літній настрій' з ID 2213
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Бадьорість ранку' з ID 2214
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гармонія смаку' з ID 2215
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Блискавка' з ID 2216
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Зелений шторм' з ID 2217
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Смак свободи' з ID 2218
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Червоний спалах' з ID 2219
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Острів здоров’я' з ID 2220
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат-настрій' з ID 2221
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Огірок і друзі»' з ID 2222
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Салат «Пекінський привіт»' з ID 2223
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Формула вітамінів' з ID 2224
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Гострий герой' з ID 2225
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Успішно додано салат 'Вибух кольорів' з ID 2226
+2025-06-12 13:26:06 [main] INFO  Init.SaladSeeder - Успішно згенеровано 20 салатів.
+2025-06-12 13:26:06 [main] INFO  DB.SaladDAO - Зчитано 20 салатів з бази
+2025-06-12 13:26:06 [main] INFO  Init.AppInitializer - Завантажено 20 салатів
+2025-06-12 13:26:07 [main] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 13:26:07 [main] INFO  FXUtils.NavigationHelper - Повернення до головного меню
+2025-06-12 13:26:07 [main] ERROR FXUtils.NavigationHelper - Не вдалося повернутись до меню
+java.lang.RuntimeException: Помилка меню
+	at Display.ConsoleMenu.start(ConsoleMenu.java:24)
+	at FXUtils.NavigationHelper.returnToMainMenu(NavigationHelper.java:15)
+	at FXUtils.NavigationHelperTest.testReturnToMainMenuFailure(NavigationHelperTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
